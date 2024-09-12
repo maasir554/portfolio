@@ -20,7 +20,7 @@ export const Experience = () => (
                         </p>
                         <div className="flex flex-wrap gap-4">
                             {exp.technologies.map( (tech, idx) => (
-                                <span key={idx} className="px-4 py-2 bg-neutral-900 text-purple-500 rounded-lg"> {tech} </span>
+                                <span key={idx} className="px-4 py-2 bg-neutral-900 text-green-500 rounded-lg"> {tech} </span>
                             ) )}
                         </div>
                     </div>

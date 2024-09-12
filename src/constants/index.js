@@ -3,74 +3,84 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a second-year student at Maulana Azad National Institute of Technology (MANIT), Bhopal. I am a passionate tech enthusiast and interested in the fields of Software Engineering and Robotics. I love to make innovative solutions using software and hardware technologies.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `My passion lies in exploring new technologies and acquiring new skills. I have a particular interest in web development and programming, which keeps me actively engaged in various web design and development projects. Additionally, I occasionally work with Python programming.
+
+I am also delving into the realms of electronics and microcontrollers, learning Arduino programming using C++, and researching new project ideas related to electronics. Furthermore, I am dedicated to mastering Data Structures and Algorithms (DSA) with C++, regularly practicing on LeetCode to sharpen my problem-solving skills.
+
+Beyond my technical expertise, I am committed to enhancing my soft skills. I actively participate in teamwork within college societies, always eager to collaborate and network with others.
+
+As a dedicated student, I strive to work hard and consistently, aiming to balance my academic responsibilities with extracurricular activities. I am looking forward to my overall growth and development in the coming years.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Web Developer",
+    company: "Entreprenureship-Cell MANIT Bhopal",
+    description: `Maintaining and developing the website for the society, regularly optimising the data flow and fixing bugs. Also significantly contributing as an Event Manager in various events organised by the society on regular basis.`,
+    technologies: ["Javascript", "HTML", "CSS", "TailwindCSS", "Git & GitHub"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "2024 - present",
+    role: "Technical Executive",
+    company: "Robotics Club, MANIT",
+    description: `Working on various projects involving electronics and microcontrollers like Arduino, ESP32, Raspberry Pi, Sensor modules, etc to prototype robots, working for various workshops, fetching parteners for conduction of events, and web design & development. `,
+    technologies: ["Arduino", "Microcontrollers", "electronic sensors", "Next.js"],
   },
   {
-    year: "2021 - 2022",
+    year: "jan 2024 - feb 2024",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Evehere (Startup)",
+    description: `Involved in planning of the the full-stack application of the startup at the initial stage.`,
+    technologies: ["Web development", "Communication"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2022 - 2022",
+    role: "Team Leader",
+    company: "Sanskriti Techfest",
+    description: `secured secoond position in inter-school web-development competetion in which 10+ top schools of Bhopal participated.`,
+    technologies: ["HTML", "CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Note-saving Website",
+    link:"https://github.com/maasir554/notes-app/",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional note-saving website which saves your notes to the local storage of your browser.",
+    technologies: ["HTML", "CSS", "JavaScript", "localStorage"],
   },
   {
-    title: "Task Management App",
+    title: "ToDude - a todo lists app",
+    link:"https://github.com/maasir554/todo-ts/",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for adding and tracking your tasks. uses local strage to save data.",
+    technologies: ["Vite", "TypScript", "localStorage"],
   },
   {
     title: "Portfolio Website",
+    link:"https://github.com/maasir554/portfolio-ecell/",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Vite", "React", "TailwindCSS"],
   },
   {
-    title: "Blogging Platform",
+    title: "Object avoiding robot",
+    link:"https://roboticsnitb.com/",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+      "A simple auto-driving car which senses its front usning an ultrasonic sensor and uses Arduino to control DC motoes via L298N Motor Driver.",
+    technologies: ["Arduino", "C++", "Sensors and Hardware"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "191/4, Professor's Colony, Bhopal, Madhya Pradesh, India ",
+  phoneNo: "+91 626 898 7937 ",
+  email: "maasir554@gmail.com",
 };
