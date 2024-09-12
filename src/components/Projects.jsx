@@ -39,7 +39,7 @@ export const Projects = () => (
                                 {project.description}
                             </p>
 
-                            <div className="flex items-center gap-3 ">
+                            <div className="flex items-center gap-3 flex-wrap">
                                     {project.technologies.map(
                                         (tech, ix) => (
                                             <span key={ix} className="px-3 py-1 bg-neutral-800 text-sm rounded text-green-500" >
